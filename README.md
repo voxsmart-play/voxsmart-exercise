@@ -6,7 +6,7 @@ Please consider this as a simple way to complete the exercise
 - Create Github organization
 
 ##Deploy the solution
-- Clone the repository: git clone https://github.com/robino-solutions/voxsmart-exercise.git
+- Clone the repository: git clone https://github.com/voxsmart-play/voxsmart-exercise.git
 - Replace the value of the "org_name" variable to match the name of your organization
 - Supply value for the 'github_personal_token' variable (This is your github personal access token)
 - Now run the terraform commands:
