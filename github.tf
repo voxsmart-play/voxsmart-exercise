@@ -11,6 +11,13 @@ terraform {
   }
 }
 
+//terraform {
+//  backend "s3" {
+//    bucket = "terraform-state-storage"
+//    key    = "voxsmart/terraform.tfstate"
+//    region = "eu-west-1"
+//  }
+//}
 # Configure the AWS Provider
 provider "aws" {
   region  = "eu-west-1"
