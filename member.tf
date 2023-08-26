@@ -5,7 +5,7 @@ resource "github_membership" "membership_for_backend_user" {
 }
 
 resource "github_membership" "membership_for_frontend_user" {
-  username = "FrontendUser"
+  username = "FrontendUser" #This should be an existing github user
   role     = "member"
 }
 
@@ -13,7 +13,7 @@ resource "github_team_members" "backend_team_members" {
   team_id  = github_team.backend-team.id
 
   members {
-    username = "BackendUser"
+    username = "BackendUser" #This should be an existing github user
     role     = "maintainer"
   }
 
